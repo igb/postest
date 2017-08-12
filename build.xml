@@ -1,0 +1,31 @@
+<project name="postest" default="package">
+    <property file="project.properties"/>
+
+
+    <target name="clean">
+         <delete dir="${build.dir}"/>
+         <delete dir="${dist.dir}"/>
+    </target>
+
+    <target name="init" depends="clean">
+        <mkdir dir="${build.dir}"/>
+        <mkdir dir="${dist.dir}"/>
+    </target>
+
+    <target name="compile" depends="init">
+        <javac srcdir="${src.dir}" destdir="${build.dir}" debug="true">
+            <classpath>
+                <fileset dir="${libext.dir}">
+                    <include name="**/*.jar"/>
+                </fileset>
+            </classpath>
+        </javac>
+    </target>
+
+    <target name="package" depends="compile">
+        <war destfile="${dist.dir}/postest.war" webxml="${conf.dir}/web.xml">
+         <classes dir="${build.dir}"/>             
+        </war>
+    </target>
+
+</project>

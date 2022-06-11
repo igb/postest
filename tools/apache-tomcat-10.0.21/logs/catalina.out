@@ -1,0 +1,91 @@
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Jun-2022 08:48:28.199 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.21
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 10 2022 21:53:12 UTC
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.21.0
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.4
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17-internal+0-adhoc.igb.jdk-jdk-17-ga
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+04-Jun-2022 08:48:28.201 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/conf/logging.properties
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+04-Jun-2022 08:48:28.230 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/temp
+04-Jun-2022 08:48:28.231 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/igb/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+04-Jun-2022 08:48:28.355 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+04-Jun-2022 08:48:28.382 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [276] milliseconds
+04-Jun-2022 08:48:28.397 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+04-Jun-2022 08:48:28.398 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.21]
+04-Jun-2022 08:48:28.400 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/docs]
+04-Jun-2022 08:48:28.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/docs] has finished in [110] ms
+04-Jun-2022 08:48:28.511 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/manager]
+04-Jun-2022 08:48:28.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/manager] has finished in [14] ms
+04-Jun-2022 08:48:28.525 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/examples]
+04-Jun-2022 08:48:28.615 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/examples] has finished in [89] ms
+04-Jun-2022 08:48:28.615 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/ROOT]
+04-Jun-2022 08:48:28.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/ROOT] has finished in [6] ms
+04-Jun-2022 08:48:28.621 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/host-manager]
+04-Jun-2022 08:48:28.629 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/host-manager] has finished in [8] ms
+04-Jun-2022 08:48:28.630 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+04-Jun-2022 08:48:28.636 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [253] milliseconds
+04-Jun-2022 08:50:18.719 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+04-Jun-2022 08:50:18.754 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more Filters failed to start. Full details will be found in the appropriate container log file
+04-Jun-2022 08:50:18.754 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/postest] startup failed due to previous errors
+04-Jun-2022 08:50:18.761 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [41] ms
+04-Jun-2022 09:06:39.633 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+04-Jun-2022 09:06:39.645 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+04-Jun-2022 09:06:39.683 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [38] ms
+got a request...
+request.getHeader("Content-Type") = multipart/form-data; boundary=----WebKitFormBoundaryson22SuPHmxAgRyY
+Content-Length: 1815488
+part name = text
+part.getContentType() = null
+part name = file1
+part.getContentType() = image/jpeg
+part name = file2
+part.getContentType() = application/octet-stream
+got a request...
+request.getHeader("Content-Type") = multipart/form-data; boundary=----WebKitFormBoundaryIsR8wB1SfuXuAOAB
+Content-Length: 1815478
+part name = text
+part.getContentType() = null
+part name = file1
+part.getContentType() = image/jpeg
+part name = file2
+part.getContentType() = application/octet-stream
+got a request...
+request.getHeader("Content-Type") = multipart/form-data; boundary=----WebKitFormBoundary6pKg5rfyDdv5kIHo
+Content-Length: 1815478
+part name = text
+part.getContentType() = null
+part name = file1
+part.getContentType() = image/jpeg
+part name = file2
+part.getContentType() = application/octet-stream
+got a request...
+request.getHeader("Content-Type") = multipart/form-data; boundary=----WebKitFormBoundarymzK0XCg0xNCoEBrf
+Content-Length: 1815488
+part name = text
+part.getContentType() = null
+part name = file1
+part.getContentType() = image/jpeg
+part name = file2
+part.getContentType() = application/octet-stream
+04-Jun-2022 20:37:18.129 INFO [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+04-Jun-2022 20:37:18.164 INFO [Thread-2] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+destroyed!
+04-Jun-2022 20:37:18.233 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+04-Jun-2022 20:37:18.252 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

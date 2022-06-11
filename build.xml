@@ -1,4 +1,4 @@
-<project name="postest" default="package">
+<project name="postest" default="deploy">
     <property file="project.properties"/>
 
 
@@ -23,9 +23,16 @@
     </target>
 
     <target name="package" depends="compile">
-        <war destfile="${dist.dir}/postest.war" webxml="${conf.dir}/web.xml">
-         <classes dir="${build.dir}"/>             
+        <war destfile="${dist.dir}/postest.war" webxml="${conf.dir}/web.xml" basedir="${websrc.dir}">
+         <classes dir="${build.dir}"/>
+         <lib dir="${lib.dir}"/>
+
+                    <!-- <include name="${websrc.dir}/index.html"/> -->
         </war>
+    </target>
+
+    <target name="deploy" depends="package">
+        <copy file="${dist.dir}/postest.war" todir="${tomcat.webapps}"/>
     </target>
 
 </project>

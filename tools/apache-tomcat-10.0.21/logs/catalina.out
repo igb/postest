@@ -89,3 +89,283 @@ part.getContentType() = application/octet-stream
 destroyed!
 04-Jun-2022 20:37:18.233 INFO [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 04-Jun-2022 20:37:18.252 INFO [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Jun-2022 16:32:32.288 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.0.21
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 10 2022 21:53:12 UTC
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.0.21.0
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            12.4
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+11-Jun-2022 16:32:32.290 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-17.jdk/Contents/Home
+11-Jun-2022 16:32:32.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17-internal+0-adhoc.igb.jdk-jdk-17-ga
+11-Jun-2022 16:32:32.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Jun-2022 16:32:32.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+11-Jun-2022 16:32:32.291 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+11-Jun-2022 16:32:32.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Jun-2022 16:32:32.297 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/conf/logging.properties
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21
+11-Jun-2022 16:32:32.298 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/temp
+11-Jun-2022 16:32:32.305 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/igb/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+11-Jun-2022 16:32:32.433 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Jun-2022 16:32:32.448 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [248] milliseconds
+11-Jun-2022 16:32:32.464 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Jun-2022 16:32:32.464 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.0.21]
+11-Jun-2022 16:32:32.471 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 16:32:32.592 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [121] ms
+11-Jun-2022 16:32:32.593 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/docs]
+11-Jun-2022 16:32:32.601 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/docs] has finished in [8] ms
+11-Jun-2022 16:32:32.602 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/manager]
+11-Jun-2022 16:32:32.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/manager] has finished in [13] ms
+11-Jun-2022 16:32:32.616 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/examples]
+11-Jun-2022 16:32:32.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/examples] has finished in [92] ms
+11-Jun-2022 16:32:32.708 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/ROOT]
+11-Jun-2022 16:32:32.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/ROOT] has finished in [7] ms
+11-Jun-2022 16:32:32.715 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/host-manager]
+11-Jun-2022 16:32:32.723 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/host-manager] has finished in [8] ms
+11-Jun-2022 16:32:32.724 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Jun-2022 16:32:32.730 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [281] milliseconds
+11-Jun-2022 16:33:02.744 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 16:33:02.770 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 16:33:02.789 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [19] ms
+11-Jun-2022 16:35:42.961 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 16:35:42.977 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 16:35:43.009 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [32] ms
+11-Jun-2022 21:53:27.077 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 21:53:27.180 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 21:53:27.297 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [117] ms
+11-Jun-2022 21:54:07.349 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 21:54:07.382 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 21:54:07.435 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [54] ms
+servletPath = /diff
+servletPath = /diff
+11-Jun-2022 21:57:47.695 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 21:57:47.725 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 21:57:47.761 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [36] ms
+uri = /postest/diff/form/1
+uri = /postest/diff/form/1
+11-Jun-2022 22:08:48.560 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:08:48.603 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:08:48.652 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [50] ms
+uri = /postest/diff/form/1
+svlt = /diff
+uri = /postest/diff/form/1
+x = /diff/form/1
+11-Jun-2022 22:09:58.723 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:09:58.744 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:09:58.766 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [22] ms
+uri = /postest/diff/form/1
+svlt = /diff
+uri = /postest/diff/form/1
+x = /form/1
+11-Jun-2022 22:13:19.005 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:13:19.024 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:13:19.049 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [25] ms
+testSessionId = form
+svlt = /diff
+uri = /postest/diff/form/1
+11-Jun-2022 22:17:19.340 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:17:19.373 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:17:19.429 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [56] ms
+testSessionId = form
+11-Jun-2022 22:21:09.828 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:21:09.872 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:21:09.950 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [77] ms
+testSessionId = form
+testSessionId = form
+11-Jun-2022 22:22:50.038 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+11-Jun-2022 22:22:50.058 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+11-Jun-2022 22:22:50.108 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [50] ms
+testSessionId = form
+testSessionId = form
+13-Jun-2022 22:01:15.946 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+13-Jun-2022 22:01:16.064 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+13-Jun-2022 22:01:16.195 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [129] ms
+13-Jun-2022 22:02:26.282 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+13-Jun-2022 22:02:26.333 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+13-Jun-2022 22:02:26.453 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [120] ms
+substring = form/1
+13-Jun-2022 22:04:16.569 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+13-Jun-2022 22:04:16.587 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+13-Jun-2022 22:04:16.633 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [47] ms
+substring = /1
+13-Jun-2022 22:04:56.724 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+13-Jun-2022 22:04:56.816 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+13-Jun-2022 22:04:57.077 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [261] ms
+substring = 1
+testSessionId = form
+diffSourceId = 1
+18-Jun-2022 00:29:34.257 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 00:29:34.540 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 00:29:34.841 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [302] ms
+testSessionId = form
+diffSourceId = 1
+18-Jun-2022 00:31:55.001 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 00:31:55.030 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 00:31:55.098 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [68] ms
+testSessionId = form
+diffSourceId = 1
+testSessionId = form
+diffSourceId = 1
+18-Jun-2022 00:34:45.280 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 00:34:45.389 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 00:34:45.471 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [86] ms
+18-Jun-2022 00:35:05.493 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 00:35:05.528 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 00:35:05.593 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [65] ms
+testSessionId = form
+diffSourceId = 1
+testSessionId = form
+diffSourceId = 1
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 16:05:43.384 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:05:44.003 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:05:44.771 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [772] ms
+18-Jun-2022 16:06:24.816 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:06:24.936 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:06:25.192 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [257] ms
+18-Jun-2022 16:07:05.225 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:07:05.243 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:07:05.307 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [63] ms
+testSessionId = form
+diffSourceId = 1
+testSessionId = form
+diffSourceId = 2
+is diffable?
+18-Jun-2022 16:11:05.534 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:11:05.593 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:11:05.766 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [172] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+18-Jun-2022 16:13:05.901 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:13:05.933 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:13:05.983 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [50] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 16:19:26.453 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:19:26.564 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:19:26.672 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [107] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 16:21:56.825 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:21:56.848 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:21:56.905 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [57] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 16:23:06.975 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 16:23:07.002 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 16:23:07.073 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [70] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 17:23:59.152 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 17:23:59.462 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 17:23:59.781 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [308] ms
+18-Jun-2022 20:59:25.060 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 20:59:25.206 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 20:59:25.393 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [186] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 21:06:31.103 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:06:31.186 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:06:31.285 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [98] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 21:13:01.695 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:13:01.846 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:13:02.006 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [158] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?

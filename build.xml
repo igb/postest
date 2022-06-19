@@ -27,7 +27,7 @@
          <classes dir="${build.dir}"/>
          <lib dir="${lib.dir}"/>
 
-                    <!-- <include name="${websrc.dir}/index.html"/> -->
+                    <!-- <include name="${websrc.dir}/postTest.html"/> -->
         </war>
     </target>
 

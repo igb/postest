@@ -24,11 +24,26 @@
             <file-size-threshold>5242880</file-size-threshold>
         </multipart-config>
     </servlet>
+    <servlet>
+        <servlet-name>diff</servlet-name>
+        <servlet-class>org.hccp.http.test.servlet.PostDiff</servlet-class>
+        <multipart-config>
+            <max-file-size>10485760</max-file-size>
+            <max-request-size>20971520</max-request-size>
+            <file-size-threshold>5242880</file-size-threshold>
+        </multipart-config>
+    </servlet>
 
 
     <servlet-mapping>
         <servlet-name>postest</servlet-name>
         <url-pattern>/uploadtest/*</url-pattern>
     </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>diff</servlet-name>
+        <url-pattern>/diff/*</url-pattern>
+    </servlet-mapping>
+
 
 </web-app>

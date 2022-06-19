@@ -66,7 +66,7 @@ public class RequestInfoExample extends HttpServlet {
         out.println("<a href=\"../reqinfo.html\">");
         out.println("<img src=\"../images/code.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"view code\"></a>");
-        out.println("<a href=\"../index.html\">");
+        out.println("<a href=\"../postTest.html\">");
         out.println("<img src=\"../images/return.gif\" height=24 " +
                     "width=24 align=right border=0 alt=\"return\"></a>");
 

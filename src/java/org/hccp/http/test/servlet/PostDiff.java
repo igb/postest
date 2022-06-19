@@ -23,15 +23,28 @@ public class PostDiff extends HttpServlet  {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext ctxt = this.getServletContext();
 
-        Enumeration<String> attributeNames = ctxt.getAttributeNames();
-        while (attributeNames.hasMoreElements()) {
-            String attributeName = attributeNames.nextElement();
-            System.out.println("attributeName = " + attributeName);
-        }
 
         String testSessionId = getTestSessionId(req);
 
 
+       if ("sessions".equals(testSessionId)) {
+           Enumeration<String> attributeNames = ctxt.getAttributeNames();
+           PrintWriter writer = resp.getWriter();
+           writer.println("<sessions>");
+           while (attributeNames.hasMoreElements()) {
+               String attributeName = attributeNames.nextElement();
+               if (!attributeName.startsWith("jakarta") && !attributeName.startsWith("org.apache")) {
+                   System.out.println("attributeName = " + attributeName);
+                   writer.print("<session>" + attributeName + "</session>\n");
+
+               }
+           }
+           writer.println("</sessions>");
+           writer.flush();
+           return;
+
+
+       }
 
 
 

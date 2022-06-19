@@ -7,13 +7,33 @@
 <a href="difftest2.html"/>Request 2</a><br/>
 <br/>
 <br/>
-<a href="/postest/diff/form/?reset=true">reset</a>
-<div>
-    <!--
-<form action="diff/form/" method="get">
-    <button type="submit" name="reset" value="true"/>
-</form> -->
-</div>
+<script language="JavaScript">
+    function reqListener () {
+        var xml = this.responseXML;
+        var sessions = xml.children[0].children;
+        var html = "";
+        for (session of sessions) {
+             sessionId = session.textContent;
+             html += "<b>" + sessionId
+              + "</b> <a href=\"/postest/diff/"
+              + sessionId + "/?reset=true\">reset</a><br/>\n";
+         }
+        document.getElementById("sessions").innerHTML = html;
+}
+
+
+
+
+
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load", reqListener);
+oReq.open("GET", "/postest/diff/sessions/");
+oReq.send();
+
+</script>
+<h3>Active Sessions</h3>
+<div id="sessions"></div>
+    
 <h2>Multipart Test</h2>
 <a href="postTest.html"/>Request 1</a><br/>
 </body>

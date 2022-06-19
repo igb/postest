@@ -607,3 +607,124 @@ attributeName = jakarta.servlet.context.tempdir
 attributeName = jakarta.websocket.server.ServerContainer
 attributeName = org.apache.jasper.compiler.TldCache
 attributeName = org.apache.tomcat.JarScanner
+19-Jun-2022 09:37:31.398 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:37:31.414 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:37:31.451 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [37] ms
+attributeName = org.apache.catalina.resources
+attributeName = org.apache.catalina.webappVersion
+attributeName = form
+attributeName = org.apache.tomcat.InstanceManager
+attributeName = org.apache.catalina.jsp_classpath
+attributeName = jakarta.servlet.context.tempdir
+attributeName = jakarta.websocket.server.ServerContainer
+attributeName = org.apache.jasper.compiler.TldCache
+attributeName = org.apache.tomcat.JarScanner
+19-Jun-2022 09:38:31.503 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:38:31.524 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:38:31.581 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [57] ms
+attributeName = form
+19-Jun-2022 09:45:21.953 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:45:21.992 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:45:22.040 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [48] ms
+attributeName = form
+attributeName = form
+attributeName = form
+19-Jun-2022 09:50:52.304 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:50:52.334 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:50:52.429 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [95] ms
+attributeName = form
+19-Jun-2022 09:55:32.734 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:55:32.765 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:55:32.823 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [58] ms
+attributeName = form
+19-Jun-2022 09:58:32.986 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:58:33.018 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:58:33.079 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [61] ms
+attributeName = form
+attributeName = form
+attributeName = form
+attributeName = form
+attributeName = form
+19-Jun-2022 10:01:53.240 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:01:53.268 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:01:53.329 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [62] ms
+attributeName = form
+attributeName = form
+19-Jun-2022 10:03:43.397 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:03:43.415 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:03:43.470 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [55] ms
+attributeName = form
+19-Jun-2022 10:06:23.596 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:06:23.623 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:06:23.686 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [64] ms
+19-Jun-2022 10:09:53.839 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:09:53.863 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:09:53.928 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [65] ms
+attributeName = form
+19-Jun-2022 10:10:33.977 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:10:34.003 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:10:34.058 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [54] ms
+attributeName = form
+attributeName = form
+19-Jun-2022 10:11:34.098 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:11:34.113 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:11:34.156 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [44] ms
+attributeName = form
+attributeName = form
+19-Jun-2022 10:13:14.235 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:13:14.253 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:13:14.302 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [49] ms
+attributeName = form
+19-Jun-2022 10:14:14.371 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 10:14:14.404 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 10:14:14.457 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [53] ms
+attributeName = form
+19-Jun-2022 14:58:41.095 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 14:58:41.179 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 14:58:41.236 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [57] ms
+attributeName = form
+attributeName = form
+19-Jun-2022 15:02:51.417 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:02:51.444 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:02:51.484 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [40] ms
+attributeName = form
+attributeName = form
+attributeName = form
+19-Jun-2022 15:08:01.722 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:08:01.742 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:08:01.794 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [52] ms
+19-Jun-2022 15:09:11.843 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:09:11.865 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:09:11.918 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [53] ms
+19-Jun-2022 15:10:31.984 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:10:32.005 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:10:32.043 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [38] ms
+19-Jun-2022 15:11:22.077 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:11:22.096 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:11:22.139 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [44] ms
+19-Jun-2022 15:12:12.175 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 15:12:12.196 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 15:12:12.233 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [38] ms
+attributeName = form
+attributeName = form

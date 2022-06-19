@@ -369,3 +369,241 @@ diffSourceId = 2
 is diffable?
 is diffable?
 is diffable?
+18-Jun-2022 21:27:22.947 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:27:23.149 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:27:23.675 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [524] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 21:35:34.235 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:35:34.310 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:35:34.737 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [427] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 21:40:05.145 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:40:05.215 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:40:05.313 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [98] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+<bp>------WebKitFormBoundaryC08EHOGfDWp1m1zW</bp>
+<bp>Content-Disposition: form-data; name="text"</bp>
+<bp></bp>
+<bp>a</bp>
+<bp>------WebKitFormBoundaryC08EHOGfDWp1m1zW</bp>
+<bp>Content-Disposition: form-data; name="file1"; filename=""</bp>
+<bp>Content-Type: application/octet-stream</bp>
+<bp></bp>
+<bp></bp>
+<bp>------WebKitFormBoundaryC08EHOGfDWp1m1zW--</bp>
+18-Jun-2022 21:42:45.442 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 21:42:45.474 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 21:42:45.537 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [63] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+<bp>------WebKitFormBoundaryGORD3bq2DAJ2ujAK</bp>
+<bp>Content-Disposition: form-data; name="text"</bp>
+<bp></bp>
+<bp>a</bp>
+<bp>------WebKitFormBoundaryGORD3bq2DAJ2ujAK</bp>
+<bp>Content-Disposition: form-data; name="file1"; filename=""</bp>
+<bp>Content-Type: application/octet-stream</bp>
+<bp></bp>
+<bp></bp>
+<bp>------WebKitFormBoundaryGORD3bq2DAJ2ujAK--</bp>
+18-Jun-2022 22:10:27.130 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:10:27.188 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:10:27.296 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [107] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 22:30:08.159 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:30:08.392 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:30:08.479 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [86] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 22:31:18.541 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:31:18.568 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:31:18.624 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [56] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+testSessionId = form
+diffSourceId = 1
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 22:50:09.617 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:50:09.666 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:50:09.718 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [51] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 22:51:39.789 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:51:39.811 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:51:39.867 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [56] ms
+18-Jun-2022 22:52:29.903 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:52:29.928 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:52:29.979 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [52] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 22:58:20.220 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 22:58:20.252 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 22:58:20.341 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [89] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 23:17:31.288 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 23:17:31.332 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 23:17:31.371 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [40] ms
+testSessionId = form
+diffSourceId = 1
+is diffable?
+is diffable?
+testSessionId = form
+diffSourceId = 2
+is diffable?
+is diffable?
+is diffable?
+18-Jun-2022 23:22:41.611 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+18-Jun-2022 23:22:41.638 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+18-Jun-2022 23:22:41.685 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [48] ms
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+is diffable?
+19-Jun-2022 09:32:21.019 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:32:21.063 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:32:21.115 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [52] ms
+19-Jun-2022 09:32:41.133 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/postest]
+destroyed!
+19-Jun-2022 09:32:41.153 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war]
+19-Jun-2022 09:32:41.183 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/igb/Documents/postest/tools/apache-tomcat-10.0.21/webapps/postest.war] has finished in [30] ms
+attributeName = org.apache.catalina.resources
+attributeName = org.apache.catalina.webappVersion
+attributeName = org.apache.tomcat.InstanceManager
+attributeName = org.apache.catalina.jsp_classpath
+attributeName = jakarta.servlet.context.tempdir
+attributeName = jakarta.websocket.server.ServerContainer
+attributeName = org.apache.jasper.compiler.TldCache
+attributeName = org.apache.tomcat.JarScanner
+attributeName = org.apache.catalina.resources
+attributeName = org.apache.catalina.webappVersion
+attributeName = form
+attributeName = org.apache.tomcat.InstanceManager
+attributeName = org.apache.catalina.jsp_classpath
+attributeName = jakarta.servlet.context.tempdir
+attributeName = jakarta.websocket.server.ServerContainer
+attributeName = org.apache.jasper.compiler.TldCache
+attributeName = org.apache.tomcat.JarScanner
+attributeName = org.apache.catalina.resources
+attributeName = org.apache.catalina.webappVersion
+attributeName = form
+attributeName = org.apache.tomcat.InstanceManager
+attributeName = org.apache.catalina.jsp_classpath
+attributeName = jakarta.servlet.context.tempdir
+attributeName = jakarta.websocket.server.ServerContainer
+attributeName = org.apache.jasper.compiler.TldCache
+attributeName = org.apache.tomcat.JarScanner

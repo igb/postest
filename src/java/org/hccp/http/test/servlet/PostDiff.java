@@ -23,15 +23,42 @@ public class PostDiff extends HttpServlet  {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext ctxt = this.getServletContext();
 
+        Enumeration<String> attributeNames = ctxt.getAttributeNames();
+        while (attributeNames.hasMoreElements()) {
+            String attributeName = attributeNames.nextElement();
+            System.out.println("attributeName = " + attributeName);
+        }
+
         String testSessionId = getTestSessionId(req);
+
+
+
+
+
+        if ("true".equals(req.getParameter("reset"))) {
+            ctxt.setAttribute(testSessionId, null);
+            resp.sendRedirect("/postest");
+
+        }
+
+
 
         DiffTest test = (DiffTest) ctxt.getAttribute(testSessionId);
         if (test != null && test.isDiffable()) {
 
             PrintWriter writer = resp.getWriter();
             writer.println("<html><body>");
+            writer.println("<h2>");
+            writer.println("HEADERS:");
+            writer.println("</h2>");
             writer.println("<pre>");
             writer.println(test.diffHeaders());
+            writer.println("</pre>");
+            writer.println("<h2>");
+            writer.println("BODY:");
+            writer.println("</h2>");
+            writer.println("<pre>");
+            writer.println(test.diffBody());
             writer.println("</pre>");
             writer.println("</body><html>");
 
@@ -43,33 +70,44 @@ public class PostDiff extends HttpServlet  {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         ServletContext ctxt = this.getServletContext();
 
+
+
         String testSessionId = getTestSessionId(req);
-        int diffSourceId = getDiffSourceId(req);
 
-        System.out.println("testSessionId = " + testSessionId);
-        System.out.println("diffSourceId = " + diffSourceId);
-
-        DiffTest test = (DiffTest) ctxt.getAttribute(testSessionId);
-        if (test == null) {
-            test = new DiffTest();
-            ctxt.setAttribute(testSessionId, test);
-        }
-
-        String body = getBody(req);
-        List<Header> headers = getHeaders(req);
-        if (diffSourceId == 1) {
-            test.setHeaders1(headers);
-            test.setBody1(body);
-        } else if (diffSourceId == 2) {
-            test.setHeaders2(headers);
-            test.setBody2(body);
-        }
-
-        if (test.isDiffable()) {
-            resp.sendRedirect("/postest/diff/" +  testSessionId + "/");
-        } else {
+/**        if ("true".equals(req.getParameter("reset"))) {
+            ctxt.setAttribute(testSessionId, null);
             resp.sendRedirect("/postest");
         }
+*/
+            int diffSourceId = getDiffSourceId(req);
+
+          //  System.out.println("testSessionId = " + testSessionId);
+          //  System.out.println("diffSourceId = " + diffSourceId);
+
+            DiffTest test = (DiffTest) ctxt.getAttribute(testSessionId);
+            if (test == null) {
+                test = new DiffTest();
+                ctxt.setAttribute(testSessionId, test);
+            }
+
+            String body = getBody(req);
+            List<Header> headers = getHeaders(req);
+            if (diffSourceId == 1) {
+                test.setHeaders1(headers);
+                test.setBody1(body);
+            } else if (diffSourceId == 2) {
+                test.setHeaders2(headers);
+                test.setBody2(body);
+            }
+
+            if (test.isDiffable()) {
+                resp.sendRedirect("/postest/diff/" + testSessionId + "/");
+            } else {
+                resp.sendRedirect("/postest");
+            }
+   /*
+   }
+    */
     }
 
     private int getDiffSourceId(HttpServletRequest request) {

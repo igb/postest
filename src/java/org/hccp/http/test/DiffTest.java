@@ -6,7 +6,9 @@ import java.util.*;
 
 public class DiffTest {
 
-    public static final String DIFF2_PRFIX = "&lt;&lt;";
+    public static final String DIFF_TO_PREFIX = "&lt;&lt;";
+    public static final String DIFF_FROM_PREFIX = "&gt;&gt;";
+
     List<Header> headers1;
     List<Header> headers2;
 
@@ -15,7 +17,6 @@ public class DiffTest {
 
 
     public boolean isDiffable() {
-        System.out.println("is diffable?");
         return (headers1 != null && headers2 != null && body1 != null && body2 != null);
     }
 
@@ -50,6 +51,69 @@ public class DiffTest {
     public void setBody2(String body2) {
         this.body2 = body2;
     }
+
+    public String diffBody() {
+        if (this.body1.equals(this.body2)) {
+            return body1;
+        } else {
+
+            StringBuffer sb = new StringBuffer();
+
+            String[] body1Parts = body1.split("\r\n");
+            String[] body2Parts = body2.split("\r\n");
+
+            String [] bigger = null;
+            String [] smaller = null;
+            int index = 0;
+
+            String biggerPrefix = "";
+            String smallerPrefix = "";
+
+            boolean biggerFirst = false;
+
+            if (body1Parts.length >= body2Parts.length) {
+                bigger = body1Parts;
+                smaller = body2Parts;
+                biggerPrefix = DIFF_FROM_PREFIX;
+                smallerPrefix = DIFF_TO_PREFIX;
+                biggerFirst = true;
+            } else {
+                bigger = body2Parts;
+                smaller = body1Parts;
+                biggerPrefix = DIFF_TO_PREFIX;
+                smallerPrefix = DIFF_FROM_PREFIX;
+                biggerFirst = false;
+            }
+
+            for (int i = 0; i < smaller.length; i++) {
+                String smallerValue = smaller[i];
+                String biggerValue = bigger[i];
+
+                if (biggerValue.equals(smallerValue)) {
+                    sb.append(biggerValue + "\n");
+                } else {
+                    if (biggerFirst) {
+                        sb.append(biggerPrefix + biggerValue + "\n");
+                        sb.append(smallerPrefix + smallerValue + "\n");
+                    } else {
+                        sb.append(smallerPrefix + smallerValue + "\n");
+                        sb.append(biggerPrefix + biggerValue + "\n");
+                    }
+                }
+                index =i;
+            }
+
+            for (int i = index; i < bigger.length; i++) {
+                String value = bigger[i];
+                sb.append(biggerPrefix + value + "\n");
+            }
+
+            return sb.toString();
+
+        }
+
+    }
+
 
 
     public String diffHeaders() {
@@ -107,20 +171,20 @@ public class DiffTest {
                         sb.append(headerToDiffString(prefix, key, values1));
                     } else {
                         sb.append(key + ":\n");
-                        sb.append(headerToDiffString("\t>>", "", values1));
-                        sb.append(headerToDiffString("\t" + DIFF2_PRFIX, "", values2));
+                        sb.append(headerToDiffString("\t" + DIFF_FROM_PREFIX, "", values1));
+                        sb.append(headerToDiffString("\t" + DIFF_TO_PREFIX, "", values2));
 
                     }
 
 
                 } else if (headers1KeySet.contains(key)) {
 
-                    prefix = ">>";
+                    prefix = DIFF_FROM_PREFIX;
                    sb.append(headerToDiffString(prefix, key, values1));
 
                 } else {
 
-                    prefix = DIFF2_PRFIX;
+                    prefix = DIFF_TO_PREFIX;
                     sb.append(headerToDiffString(prefix, key, values2));
 
 
